@@ -15,7 +15,7 @@ function App() {
       <ScrollToTop smooth color="#4E342E" />
 
       <Helmet>
-        <title>Rohit Lomga | Frontend Developer</title>
+        <title>Rohit Lomga</title>
 
         <meta
           name="description"
