@@ -3,8 +3,9 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import personal from "../../data/personal";
-// import profileImg from "../../assets/profile.jpg"
-import profileImg from "../../assets/profile.png"
+import profileImg from "../../assets/profile.png";
+import { Link } from "react-scroll";
+import resumeFile from "../../assets/Resume.pdf";
 
 function Hero() {
   const hero = useRef();
@@ -64,11 +65,20 @@ function Hero() {
           </motion.h2>
 
           <div className="mt-10 flex gap-6">
-            <button className="bg-[#4E342E] text-white px-8 py-4 rounded-full">
-              Projects
-            </button>
+            <Link to="projects" smooth duration={500}>
+              <button className="bg-[#4E342E] text-white px-8 py-4 rounded-full cursor-pointer">
+                Projects
+              </button>
+            </Link>
 
-            <button className="border px-8 py-4 rounded-full">Resume</button>
+            {/* <button className="border px-8 py-4 rounded-full cursor-pointer">Resume</button> */}
+            <a
+              href={resumeFile}
+              download="Rohit_Lomga_Resume.pdf"
+              className="border px-8 py-4 rounded-full cursor-pointer inline-block"
+            >
+              Resume
+            </a>
           </div>
         </div>
 

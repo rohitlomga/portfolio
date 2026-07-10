@@ -1,6 +1,11 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import personal from "../../data/personal.js"
 
 export default function Contact() {
+
+  console.log("Personal",personal)
+
+
   return (
     <section id="contact" className="py-32 bg-[#F8F6F2]">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20">
@@ -14,13 +19,13 @@ export default function Contact() {
           <div className="space-y-8 mt-12">
             <div className="flex gap-5">
               <Mail />
-              example@gmail.com
+              {personal?.email || "example@gmail.com"}
             </div>
 
-            <div className="flex gap-5">
+            {/* <div className="flex gap-5">
               <Phone />
-              +91 9876543210
-            </div>
+              +91 {personal?.phone || ""}
+            </div> */}
 
             <div className="flex gap-5">
               <MapPin />

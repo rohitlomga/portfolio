@@ -8,7 +8,7 @@ subtitle:"React Developer & Aspiring Full Stack Engineer",
 
 location:"Ranchi, Jharkhand",
 
-email:"example@gmail.com",
+email:"rohitlomga505@gmail.com",
 
 phone:"+91 9876543210",
 

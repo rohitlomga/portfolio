@@ -64,7 +64,7 @@ function Navbar() {
             <Github />
           </a>
           <a
-            href="https://github.com/rohitlomga"
+            href="https://www.linkedin.com/in/rohit-lomga-a92ab92a4/"
             target="_blank"
             rel="noreferrer"
           >

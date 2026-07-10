@@ -10,9 +10,9 @@ Currently, I'm expanding my expertise in backend development with Node.js, Expre
   `,
 
   experience: "2+",
-  projects: "15+",
-  technologies: "20+",
-  certifications: "5+",
+  projects: "4",
+  // technologies: "20+",
+  // certifications: "5+",
 };
 
 export default about;

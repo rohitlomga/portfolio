@@ -46,9 +46,9 @@ function About() {
 
             <Stat value={about.experience} title="Years Learning" />
 
-            <Stat value={about.technologies} title="Technologies" />
+            {/* <Stat value={about.technologies} title="Technologies" /> */}
 
-            <Stat value={about.certifications} title="Certificates" />
+            {/* <Stat value={about.certifications} title="Certificates" /> */}
           </div>
         </motion.div>
       </div>

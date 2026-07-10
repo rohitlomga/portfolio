@@ -14,8 +14,8 @@ const projects = [
       "Material UI",
       "Axios",
     ],
-    github: "#",
-    demo: "#",
+    github: "",
+    demo: "",
   },
 
   {
