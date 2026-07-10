@@ -12,7 +12,11 @@ function App() {
 
       <Home />
 
-      <ScrollToTop smooth color="#4E342E" />
+      <ScrollToTop
+        smooth
+        color="#4E342E"
+        className="!flex !items-center !justify-center"
+      />
 
       <Helmet>
         <title>Rohit Lomga</title>
